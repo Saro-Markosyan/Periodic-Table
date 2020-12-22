@@ -1,0 +1,179 @@
+body{
+    color: black;
+    font-family: sans-serif;
+}
+
+main{
+    border: 10px solid #a4a4a4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    width: 700px;
+
+    margin: 25px auto;
+
+    background-color: #fff;
+}
+main > div:nth-of-type(2){
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+a{
+    color: #2108FA;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h3{
+    margin: 0 10px 0 10px;
+
+    padding-top: 10px;
+    padding-left: 10px; 
+}
+
+li{
+    display: block;
+    
+    font-size: 13px;
+    line-height: 25px;
+}
+
+footer{
+    text-align: center;
+}
+
+p{
+    color: #7f7f7f;
+    font-size: 13px; 
+}
+
+h2{
+   color: #7f7f7f; 
+}
+
+.upperpart{  
+   padding-top: 10px;
+    
+   color: #fff; 
+   text-align: center;
+
+   background-color: #ff7797;
+}
+.bCircle{
+    display: inline-block;
+
+    height: 30px;
+    width: 30px;
+    
+    border: 3px solid #fff;
+    border-radius: 70px;
+
+    padding: 5px;
+
+    font-size: 24px;
+    vertical-align: middle;
+}
+.c{
+    display: inline-block;
+
+    height: 57px;
+    width: 90px;
+
+    font-size: 24px;
+
+    vertical-align: middle; 
+}
+.ap{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.pdis{
+    display: inline-block;
+    
+    vertical-align: middle;
+
+    padding-left: 60px;
+}
+.license{
+    border: 1px solid #aeaeae;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+        
+    background-color: #d9d9d9;
+
+    padding: 20px 5px 5px;
+
+    color: #7f7f7f;
+    font-size: 13px;
+}
+.dh{
+    border: 1px solid #aeaeae;
+    border-top: none;
+    
+    background-color: #d9d9d9;
+     
+    font-size: 13px;
+    text-align: right;
+
+    padding: 5px;
+}
+.imgSeal{
+    height: 80px;   
+    width: 80px;
+}
+.middlepart div:nth-of-type(n+3){
+    padding-top: 50px; 
+}
+.middlepart div:nth-of-type(n+4) li{
+    line-height: 17px; 
+}
+.firstUl{
+    background-image: url(../images/understanding-header.png);
+}
+.secondUl{
+    background-image: url(../images/freedoms-header.png);
+}
+.thirdUl{
+    background-image: url(../images/limitations-header.png);
+}
+.imgLogo{
+    height: 100px;
+    width: 100px;
+
+    padding-top: 20px;
+}
+.languages{
+    color: #7f7f7f;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.languages span{
+    font-size: 12px;
+    text-align: left;
+}
+.languages a{
+    color: #7f7f7f;
+    font-size: 12px;
+}
+.image-by{
+    padding: 0 80px 20px 70px;
+  
+    text-align: justify;
+
+    background: url(../images//by.png) 0 0 no-repeat;
+}
+.image-sa{
+    padding: 0 25px 30px 70px;
+
+    text-align: justify;
+
+    background: url(../images//sa.png) 0 0 no-repeat;
+}
+.paragraph-width{
+    width: 550px;
+    
+    padding-left: 400px;
+           
+    text-align: justify;
+}

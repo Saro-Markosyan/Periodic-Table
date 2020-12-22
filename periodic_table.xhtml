@@ -1,0 +1,1143 @@
+﻿<!DOCTYPE HTML[
+    <!ENTITY nonruby "Your browser does not support &lt;ruby&gt; tag.">
+	<!ENTITY title "Periodic Table">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<style type="text/css">
+		@import url('content/styles/periodic_table.css');
+	</style>
+    <script src="periodic_table.js"></script>
+</head>
+<body title="&title;" onload="init();">
+    <main>
+        <table>
+            <caption>&title; of the Elements</caption>
+            <tbody>
+                <tr>
+                    <td class="non_metal">
+                        <ruby>
+                            H
+                            <rt>1</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p id="hydrogen"></p>
+                        <p>1.0079</p>
+                    </td>
+                    <td colspan="16"></td>
+                    <td class="noble_gas">
+                        <ruby>
+                            He
+                            <rt>2</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p id="helium"></p>
+                        <p>4.0026</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alkali_metal">
+                        <ruby>
+                            Li
+                            <rt>3</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Lithium</p>
+                        <p>6.941</p>
+                    </td>
+                    <td class="alkaline_earth">
+                        <ruby>
+                            Be
+                            <rt>4</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Beryllium</p>
+                        <p>9.0122</p>
+                    </td>
+                    <td colspan="10"></td>
+                    <td class="semi_metal">
+                        <ruby>
+                            B
+                            <rt>5</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Boron</p>
+                        <p>10.811</p>
+                    </td>
+                    <td class="non_metal">
+                        <ruby>
+                            C
+                            <rt>6</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Carbon</p>
+                        <p>12.01</p>
+                    </td>
+                    <td class="non_metal">
+                        <ruby>
+                            N
+                            <rt>7</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Nitrogen</p>
+                        <p>14.01</p>
+                    </td>
+                    <td class="non_metal">
+                        <ruby>
+                            O
+                            <rt>8</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Oxygen</p>
+                        <p>16.00</p>
+                    </td>
+                    <td class="halogen">
+                        <ruby>
+                            F
+                            <rt>9</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Fluorine</p>
+                        <p>19.00</p>
+                    </td>
+                    <td class="noble_gas">
+                        <ruby>
+                            Ne
+                            <rt>10</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Neon</p>
+                        <p>20.18</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alkali_metal">
+                        <ruby>
+                            Na
+                            <rt>11</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Sodium</p>
+                        <p>22.99</p>
+                    </td>
+                    <td class="alkaline_earth">
+                        <ruby>
+                            Mg
+                            <rt>12</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Magnesium</p>
+                        <p>24.305</p>
+                    </td>
+                    <td colspan="10"></td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Al
+                            <rt>13</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Aluminum</p>
+                        <p>26.98</p>
+                    </td>
+                    <td class="semi_metal">
+                        <ruby>
+                            Si
+                            <rt>14</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Silicon</p>
+                        <p>28.09</p>
+                    </td>
+                    <td class="non_metal">
+                        <ruby>
+                            P
+                            <rt>15</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Phosphorus</p>
+                        <p>30.97</p>
+                    </td>
+                    <td class="non_metal">
+                        <ruby>
+                            S
+                            <rt>16</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Sulfur</p>
+                        <p>32.065</p>
+                    </td>
+                    <td class="halogen">
+                        <ruby>
+                            Cl
+                            <rt>17</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Chlorine</p>
+                        <p>35.453</p>
+                    </td>
+                    <td class="noble_gas">
+                        <ruby>
+                            Ar
+                            <rt>18</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Argon</p>
+                        <p>39.948</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alkali_metal">
+                        <ruby>
+                            K
+                            <rt>19</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Potassium</p>
+                        <p>39.10</p>
+                    </td>
+                    <td class="alkaline_earth">
+                        <ruby>
+                            Ca
+                            <rt>20</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Calcium</p>
+                        <p>40.078</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Sc
+                            <rt>21</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Scandium</p>
+                        <p>44.96</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ti
+                            <rt>22</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Titanium</p>
+                        <p>47.867</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            V
+                            <rt>23</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Vanadium</p>
+                        <p>50.942</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Cr
+                            <rt>24</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Chromium</p>
+                        <p>51.997</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Mn
+                            <rt>25</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Manganese</p>
+                        <p>54.938</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Fe
+                            <rt>26</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Iron</p>
+                        <p>55.845</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Co
+                            <rt>27</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Cobalt</p>
+                        <p>58.93</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ni
+                            <rt>28</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Nickel</p>
+                        <p>58.71</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Cu
+                            <rt>29</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Copper</p>
+                        <p>63.546</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Zn
+                            <rt>30</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Zinc</p>
+                        <p>65.39</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Ga
+                            <rt>31</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Gallium</p>
+                        <p>69.723</p>
+                    </td>
+                    <td class="semi_metal">
+                        <ruby>
+                            Ge
+                            <rt>32</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Germanium</p>
+                        <p>372.64</p>
+                    </td>
+                    <td class="semi_metal">
+                        <ruby>
+                            As
+                            <rt>33</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Arsenic</p>
+                        <p>74.92</p>
+                    </td>
+                    <td class="non_metal">
+                        <ruby>
+                            Se
+                            <rt>34</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Selenium</p>
+                        <p>78.96</p>
+                    </td>
+                    <td class="halogen">
+                        <ruby>
+                            Br
+                            <rt>35</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Bromine</p>
+                        <p>79.904</p>
+                    </td>
+                    <td class="noble_gas">
+                        <ruby>
+                            Kr
+                            <rt>36</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Krypton</p>
+                        <p>83.8</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alkali_metal">
+                        <ruby>
+                            Rb
+                            <rt>37</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Rubidium</p>
+                        <p>85.48</p>
+                    </td>
+                    <td class="alkaline_earth">
+                        <ruby>
+                            Sr
+                            <rt>38</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Strontium</p>
+                        <p>87.62</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Y
+                            <rt>39</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Yttrium</p>
+                        <p>88.906</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Zr
+                            <rt>40</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Zirconium</p>
+                        <p>91.224</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Nb
+                            <rt>41</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Niobium</p>
+                        <p>92.91</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Mo
+                            <rt>42</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Molybdenum</p>
+                        <p>95.94</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Tc
+                            <rt>43</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Technetium</p>
+                        <p>98</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ru
+                            <rt>44</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Ruthenium</p>
+                        <p>101.07</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Rh
+                            <rt>45</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Rhodium</p>
+                        <p>102.91</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Pd
+                            <rt>46</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Palladium</p>
+                        <p>106.42</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ag
+                            <rt>47</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Silver</p>
+                        <p>107.87</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Cd
+                            <rt>48</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Cadmium</p>
+                        <p>112.4</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            In
+                            <rt>49</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Indium</p>
+                        <p>114.82</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Sn
+                            <rt>50</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Tin</p>
+                        <p>118.71</p>
+                    </td>
+                    <td class="semi_metal">
+                        <ruby>
+                            Sb
+                            <rt>51</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Antimony</p>
+                        <p>121.76</p>
+                    </td>
+                    <td class="semi_metal">
+                        <ruby>
+                            Te
+                            <rt>52</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Tellurium</p>
+                        <p>127.6</p>
+                    </td>
+                    <td class="halogen">
+                        <ruby>
+                            I
+                            <rt>53</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Iodine</p>
+                        <p>126.90</p>
+                    </td>
+                    <td class="noble_gas">
+                        <ruby>
+                            Xe
+                            <rt>54</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Xenon</p>
+                        <p>131.30</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alkali_metal">
+                        <ruby>
+                            Cs
+                            <rt>55</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Cesium</p>
+                        <p>132.91</p>
+                    </td>
+                    <td class="alkaline_earth">
+                        <ruby>
+                            Ba
+                            <rt>56</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Barium</p>
+                        <p>137.34</p>
+                    </td>
+                    <td>
+                        <marquee scrollamount="4">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                La
+                                                <rt>57</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Lanthanum</p>
+                                            <p>138.91</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Ce
+                                                <rt>58</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Cerium</p>
+                                            <p>140.12</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Pr
+                                                <rt>59</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Praseodymium</p>
+                                            <p>140.91</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Nd
+                                                <rt>60</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Neodymium</p>
+                                            <p>144.24</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Pm
+                                                <rt>61</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Promethium</p>
+                                            <p>145</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Sm
+                                                <rt>62</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Samarium</p>
+                                            <p>150.36</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Eu
+                                                <rt>63</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Europium</p>
+                                            <p>151.96</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Gd
+                                                <rt>64</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Gadolinium</p>
+                                            <p>157.25</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Tb
+                                                <rt>65</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Terbium</p>
+                                            <p>158.92</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Dy
+                                                <rt>66</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Dysprosium</p>
+                                            <p>162.5</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Ho
+                                                <rt>67</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Holmium</p>
+                                            <p>164.93</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Er
+                                                <rt>68</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Erbium</p>
+                                            <p>167.26</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Tm
+                                                <rt>69</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Thulium</p>
+                                            <p>168.93</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Yb
+                                                <rt>70</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Ytterbium</p>
+                                            <p>173.04</p>
+                                        </td>
+                                        <td class="lanthanide">
+                                            <ruby>
+                                                Lu
+                                                <rt>71</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Lutetium</p>
+                                            <p>174.97</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </marquee>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Hf
+                            <rt>72</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Hafnium</p>
+                        <p>178.49</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ta
+                            <rt>73</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Tantalum</p>
+                        <p>180.95</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            W
+                            <rt>74</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Tungsten</p>
+                        <p>183.85</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Re
+                            <rt>75</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Rhenium</p>
+                        <p>186.21</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Os
+                            <rt>76</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Osmium</p>
+                        <p>190.23</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ir
+                            <rt>77</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Iridium</p>
+                        <p>192.22</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Pt
+                            <rt>78</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Platinum</p>
+                        <p>195.09</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Au
+                            <rt>79</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Gold</p>
+                        <p>196.97</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Hg
+                            <rt>80</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Mercury</p>
+                        <p>200.59</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Tl
+                            <rt>81</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Thallium</p>
+                        <p>204.37</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Pb
+                            <rt>82</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Lead</p>
+                        <p>207.2</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Bi
+                            <rt>83</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Bismuth</p>
+                        <p>208.98</p>
+                    </td>
+                    <td class="semi_metal">
+                        <ruby>
+                            Po
+                            <rt>84</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Polonium</p>
+                        <p>209</p>
+                    </td>
+                    <td class="halogen">
+                        <ruby>
+                            At
+                            <rt>85</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Astatine</p>
+                        <p>210</p>
+                    </td>
+                    <td class="noble_gas">
+                        <ruby>
+                            Rn
+                            <rt>86</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Radon</p>
+                        <p>222</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alkali_metal">
+                        <ruby>
+                            Fr
+                            <rt>87</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Francium</p>
+                        <p>223</p>
+                    </td>
+                    <td class="alkaline_earth">
+                        <ruby>
+                            Ra
+                            <rt>88</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Radium</p>
+                        <p>226</p>
+                    </td>
+                    <td>
+                        <marquee scrollamount="4">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Ac
+                                                <rt>89</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Actinium</p>
+                                            <p>227</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Th
+                                                <rt>90</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Thorium</p>
+                                            <p>232.04</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Pa
+                                                <rt>91</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Protactinium</p>
+                                            <p>231</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                U
+                                                <rt>92</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Uranium</p>
+                                            <p>238.03</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Np
+                                                <rt>93</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Neptunium</p>
+                                            <p>237</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Pu
+                                                <rt>94</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Plutonium</p>
+                                            <p>244</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Am
+                                                <rt>95</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Americium</p>
+                                            <p>243</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Cm
+                                                <rt>96</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Curium</p>
+                                            <p>247</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Bk
+                                                <rt>97</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Berkelium</p>
+                                            <p>247</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Cf
+                                                <rt>98</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Californium</p>
+                                            <p>251</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Es
+                                                <rt>99</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Einsteinium</p>
+                                            <p>252</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Fm
+                                                <rt>100</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Fermium</p>
+                                            <p>257</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Md
+                                                <rt>101</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Mendelevium</p>
+                                            <p>258</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                No
+                                                <rt>102</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p>Nobelium</p>
+                                            <p>259</p>
+                                        </td>
+                                        <td class="actinide">
+                                            <ruby>
+                                                Lr
+                                                <rt>103</rt>
+                                                <rp>&nonruby;</rp>
+                                            </ruby>
+                                            <p id="lawrencium"></p>
+                                            <p>262</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </marquee>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Rf
+                            <rt>104</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Rutherfordium</p>
+                        <p>261</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Db
+                            <rt>105</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Dubnium</p>
+                        <p>262</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Sg
+                            <rt>106</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Seaborgium</p>
+                        <p>263</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Bh
+                            <rt>107</rt>
+                        </ruby>
+                        <p>Bohrium</p>
+                        <p>262</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Hs
+                            <rt>108</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Hassium</p>
+                        <p>265</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Mt
+                            <rt>109</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Meitnerium</p>
+                        <p>266</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Ds
+                            <rt>110</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Darmstadtium</p>
+                        <p>281</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Rg
+                            <rt>111</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Roentgenium</p>
+                        <p>272</p>
+                    </td>
+                    <td class="transition_metal">
+                        <ruby>
+                            Cn
+                            <rt>112</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Copernicium</p>
+                        <p>285</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Uut
+                            <rt>113</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Ununtrium</p>
+                        <p>286</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Fl
+                            <rt>114</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Flerovium</p>
+                        <p>286</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Uup
+                            <rt>115</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Ununpentium</p>
+                        <p>288</p>
+                    </td>
+                    <td class="basic_metal">
+                        <ruby>
+                            Lv
+                            <rt>116</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Livermorium</p>
+                        <p>293</p>
+                    </td>
+                    <td class="halogen">
+                        <ruby>
+                            Uus
+                            <rt>117</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Ununseptium</p>
+                        <p>294</p>
+                    </td>
+                    <td class="noble_gas">
+                        <ruby>
+                            Uuo
+                            <rt>118</rt>
+                            <rp>&nonruby;</rp>
+                        </ruby>
+                        <p>Ununoctium</p>
+                        <p>294</p>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="18">
+                        <marquee behavior="slide" direction="up" scrollmount="33">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th class="alkali_metal">Alkali Metals</th>
+                                        <th class="alkaline_earth">Alkaline Earths</th>
+                                        <th class="transition_metal">Transition Metals</th>
+                                        <th class="basic_metal">Basic Metals</th>
+                                        <th class="semi_metal">Semi Metals</th>
+                                        <th class="non_metal">Nonmetals</th>
+                                        <th class="halogen">Halogens</th>
+                                        <th class="noble_gas">Noble Gases</th>
+                                        <th class="lanthanide">Lanthanides</th>
+                                        <th class="actinide">Actinides</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </marquee>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

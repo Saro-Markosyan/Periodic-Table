@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>Periodic Table</ShortName>
+   <Description>perodic table of mendeleev</Description>
+   <Tags>example web</Tags>
+   <Contact>markosyansaro@gmail.com</Contact>
+   <Url type="application/rss+xml" 
+        template="main.xhtml/?q={searchTerms}&amp;pw={main.xhtml?}&amp;format=rss"/>
+ </OpenSearchDescription>

@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+
+    background-color: #e5dfdf;
+}
+
+main{
+	position: absolute;
+	z-index: -1;
+    top: 0;
+    right: 0;
+	left: 0;
+
+    margin-top: 60px;
+}
+main > table{
+	min-height: 500px;
+	max-height: 500px;
+	min-width: 600px;
+	max-width: 600px;
+
+	margin: auto;
+}
+caption{
+    padding-bottom: 50px;
+
+    color: #3a5795;
+    font-size: 30px;
+}
+th{
+	min-height: 50px;
+	max-height: 50px;
+	min-width: 71px;
+	max-width: 71px;
+
+    padding-left: 3px;
+	padding-right: 3px;
+    
+	font-size: 12px; 
+	text-align: center;
+}
+tbody td{
+	height: 50px;
+	max-height: 50px;
+	min-width: 60px;
+	max-width: 60px;
+
+	text-align: center;
+}
+
+marquee{
+	min-height: 100%;
+	max-height: 50px;
+	min-width: 100%;
+}
+marquee table, marquee tr{
+	min-height: 50px;
+	max-height: 50px;
+	min-width: 60px;
+	max-width: 60px;
+}
+tfoot table{
+	height: 50px;
+	
+	margin: 50px 0 15px 193px;
+}
+tfoot th:nth-of-type(n+8){
+    border: 1px solid #a6a6c4;
+}
+tfoot marquee{
+    height: 100%;
+    min-height: 200px;
+}
+
+ruby{
+    vertical-align: text-top;
+}
+rt{
+	margin-right: 39px;
+
+    font-size: 10px;
+    vertical-align: text-top;
+}
+
+tbody p{
+	font-size: 10px;
+    line-height: 1px;
+    vertical-align: bottom;
+}
+tbody p:nth-of-type(2n+1){
+	font-size: 9px;
+}
+
+a{
+    color: #3a5795;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.alkali_metal{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #ffe6ff, #ff9cff, #ffe6ff);
+}
+.alkaline_earth{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #d1fcfc, #1feeee, #d1fcfc);
+}
+.transition_metal{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #faf0f6, #d7b8c8, #faf0f6);
+}
+.basic_metal{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #f4f4f4, #c7c7c7, #f4f4f4);
+}
+.semi_metal{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #ffecc4, #ffd373, #ffecc4);
+}
+.non_metal{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #e8ffcf, #d2ff9f, #e8ffcf);
+}
+.halogen{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #ccddff, #9abcff, #ccddff);
+}
+.noble_gas{
+    border: 1px solid #a6a6c4;
+
+	background: linear-gradient(-120deg, #f9f0cb, #f4e093, #f9f0cb);
+}
+.lanthanide{
+	background: linear-gradient(-120deg, #ffece2, #ffd9c4, #ffece2);
+}
+.actinide{
+	background: linear-gradient(-120deg, #fce3fe, #fac7fc, #fce3fe);
+}
