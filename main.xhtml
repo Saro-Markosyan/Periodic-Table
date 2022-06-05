@@ -89,9 +89,10 @@
             <menuitem><a href="periodic_table.xhtml" title="Marquee" target="screen">Marquee</a></menuitem>
         </menu>
         <div>
-            <input type="search" id="search" name="search" class="search" placeholder="Search data..." />
-            <button type="button" title="Search" onclick="find(search.value);">Search</button>
+            <script src="script/jquery.js" />
             <script src="periodic_table.js" />
+            <input type="search" id="search" name="search" class="search" placeholder="Search data..." />
+            <button type="button" id="btnSearch" title="Search" onclick="initSearch()">Search</button>
         </div>
     </header>
     <main>
